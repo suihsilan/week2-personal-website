@@ -266,7 +266,7 @@ main > section--resume
 
 /* 
 -------------------
-main>section--brand
+brand > section--brand
 -------------------*/
 .brand {
   color: #fff;
@@ -303,10 +303,6 @@ main>section--brand
   gap: 40px;
 }
 
-/* .brand_box .icon {
-  margin-bottom: 40px;
-} */
-
 .brand_lists {
   display: flex;
   flex-wrap: row nowrap;
@@ -319,9 +315,40 @@ main>section--brand
 }
 /* 
 -------------------
-main>section--works
+works >section--works
 -------------------*/
+.works {
+  color: #000;
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 144px;
+}
 
+.section--works .subtitle {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.section--works .descri {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 56px;
+}
+
+.works_lists {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 48px 24px;
+}
+
+.works_lists .text {
+  font-size: 20px;
+  line-height: 2.1;
+  margin-top: 16px;
+}
 /* 
 -------------------
 footer
