@@ -203,7 +203,7 @@ h1 {
 -------------------
 main > section--resume
 -------------------*/
-main {
+.resume {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -244,6 +244,7 @@ main {
 }
 
 .resume_lists_exp {
+  max-width: 384px;
   line-height: 1.75;
   border-top: 1px solid #000;
   margin-top: 23px;
@@ -251,8 +252,6 @@ main {
 
 .resume_lists_exp .resume_list {
   margin-top: 28px;
-  /* padding-left: 21px;
-  padding-right: 21px; */
 }
 
 .resume_lists_exp .resume_list::before {
@@ -264,6 +263,70 @@ main {
   border-radius: 50%;
   margin-right: 16px;
 }
+
+/* 
+-------------------
+main>section--brand
+-------------------*/
+.brand {
+  color: #fff;
+  background-color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 56px;
+  padding-bottom: 160px;
+}
+
+.subtitle {
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.section--brand .sub_slogan {
+  font-size: 24px;
+  line-height: 1.75;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.section--brand .text {
+  margin-bottom: 68px;
+}
+
+.brand_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* .brand_box .icon {
+  margin-bottom: 40px;
+} */
+
+.brand_lists {
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.brand_lists li:first-child {
+  margin-right: 24px;
+}
+/* 
+-------------------
+main>section--works
+-------------------*/
+
+/* 
+-------------------
+footer
+-------------------*/
+
 /* 
 rwd 練習
 */
