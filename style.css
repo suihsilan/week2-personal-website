@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 
+-------------------
+header
+-------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700; /*bold*/
+  font-style: italic;
+  line-height: 1.5; /*36px*/
+  color: #fff;
+}
+
+/* 
+-------------------
+header
+-------------------*/
+.header {
+  background: url(./img/banner.png) no-repeat center;
+  background-size: cover;
+  /*讓內元件 水平垂直置中*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 302px;
+  padding-bottom: 302px;
+  border: 1px solid #707070;
+}
+
+.container-sm {
+  max-width: 304px;
+  margin: 0 auto;
+}
+
+.media_lists {
+  max-width: 288px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+.media_lists a.media_link {
+  display: block;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1.325;
+  margin-bottom: 32px;
+}
+
+.header span {
+  font-size: 24px;
+  line-height: 1.75;
+}
+.header p {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+/* 
+-------------------
+main > section--resume
+-------------------*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section--resume {
+  text-align: center;
+  line-height: 1.75; /*42px*/
+  color: #000;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-size: 64px;
+  line-height: 1.3125;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.resume_lists_info .resume_list_name {
+  margin-top: 20px;
+}
+
+.resume_lists_info .resume_list_birth {
+  margin-top: 4px;
+}
+
+.resume_lists_info .resume_list_college {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.resume_lists_exp {
+  line-height: 1.75;
+  border-top: 1px solid #000;
+  margin-top: 23px;
+}
+
+.resume_lists_exp .resume_list {
+  margin-top: 28px;
+  /* padding-left: 21px;
+  padding-right: 21px; */
+}
+
+.resume_lists_exp .resume_list::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+/* 
+rwd 練習
+*/
