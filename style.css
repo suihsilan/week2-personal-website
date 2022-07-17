@@ -223,7 +223,7 @@ main > section--resume
   margin: 0 auto;
 }
 
-.subtitle {
+.section--resume .subtitle {
   font-size: 64px;
   line-height: 1.3125;
   color: #000;
@@ -279,7 +279,9 @@ brand > section--brand
   padding-bottom: 160px;
 }
 
-.subtitle {
+.section--brand .subtitle {
+  font-size: 64px;
+  line-height: 1.3125;
   color: #fff;
   margin-bottom: 12px;
 }
@@ -325,6 +327,8 @@ works >section--works
 }
 
 .section--works .subtitle {
+  font-size: 64px;
+  line-height: 1.3125;
   color: #000;
   font-weight: 500;
   margin-bottom: 16px;
@@ -354,6 +358,32 @@ works >section--works
 footer
 -------------------*/
 
+.footer {
+  background-color: #000;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.footer .subtitle {
+  font-size: 64px;
+  line-height: 1.3125;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.contacts a {
+  font-style: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts li:first-child {
+  margin-bottom: 16px;
+}
 /* 
 rwd 練習
 */
